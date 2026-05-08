@@ -1,0 +1,21 @@
+In this Multiple Linear Regression project, the relationship between car price and different features
+of the Toyota Corolla dataset was analyzed. Important variables such as Age_08_04, KM, Weight,
+Fuel_Type, HP, and other car features were studied to understand their effect on the selling price
+of the car.
+
+Different regression models were created and compared using evaluation metrics like
+ Mean Squared Error (MSE), Root Mean Squared Error (RMSE), and R² score.
+
+The first model using Age and Price achieved an R² score of around 76%.
+The second model using Age and KM improved the R² score to around 78%.
+The third model, which included Age, KM, and Weight, gave the best performance with an R² score
+of approximately 83% and lower error values.
+
+This shows that adding relevant features improves prediction accuracy. The analysis also checked
+multicollinearity using VIF values, especially between Age and KM, because both variables were highly
+related.
+
+Overall, the Multiple Linear Regression model successfully predicted car prices and demonstrated
+how multiple independent variables influence the target variable. The project also highlighted
+the importance of feature selection, model evaluation, and multicollinearity checking in building
+an effective predictive model.
